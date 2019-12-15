@@ -1,4 +1,2 @@
-"# CCP" 
-"# CCP" 
-"# CCP" 
-"# CCP" 
+# Cultural Class DB Project #
+Made by Kirsten Sison
