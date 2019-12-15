@@ -86,7 +86,7 @@
                                             con = DriverManager.getConnection("jdbc:mysql://localhost:3307/enderdb?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","root","p@ssword");
                                             String s =  "select cu.country, count(bk.facilitator) as number from bookings bk "
                                                         + "join clientusers cu on bk.facilitator = cu.email "
-                                                        + "where year(date_booked)=? and month(date_booked)=?"
+                                                        + "where year(date_booked)=? and month(date_booked)=? "
                                                         + "group by cu.country order by cu.country, number ";
                                             stat = con.prepareStatement(s);
                                             stat.setInt(1,Integer.parseInt(request.getParameter("year")));
