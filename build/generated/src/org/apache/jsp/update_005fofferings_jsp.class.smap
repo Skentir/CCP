@@ -1,0 +1,16 @@
+SMAP
+update_005fofferings_jsp.java
+JSP
+*S JSP
+*F
++ 0 update_offerings.jsp
+update_offerings.jsp
+*L
+5,27:47
+31,32:74
+63,7:106,3
+70,2:127
+72:129,3
+73,10:132
+82:141
+*E
